@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-itsappusesnonexemptencryption"
+    version="0.1.0">
+
+    <name>ITSAppUsesNonExemptEncryption</name>
+    <description>Add export compliance information to apps using exempt encryption only</description>
+    <author>Adriano Di Giovanni</author>
+    <keywords>ITSAppUsesNonExemptEncryption,export,compliance</keywords>
+    <license>MIT</license>
+
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+          <false/>
+        </config-file>
+    </platform>
+</plugin>

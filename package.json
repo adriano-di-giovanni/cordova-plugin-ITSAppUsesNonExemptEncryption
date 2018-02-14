@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-itsappusesnonexemptencryption",
+  "version": "0.1.0",
+  "description": "Add export compliance information to apps using exempt encryption only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "ITSAppUsesNonExemptEncryption",
+    "export",
+    "compliance"
+  ],
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/cordova-plugin-ITSAppUsesNonExemptEncryption.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/cordova-plugin-ITSAppUsesNonExemptEncryption/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/cordova-plugin-ITSAppUsesNonExemptEncryption#readme"
+}
